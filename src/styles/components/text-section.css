@@ -1,0 +1,20 @@
+.text-section {
+  display: grid;
+  row-gap: 20px;
+
+  .text-section__title {
+    grid-column: main;
+  }
+}
+
+@media (width >= 768px) {
+  .text-section {
+    .text-section__title {
+      grid-column: main-1;
+    }
+
+    .article {
+      grid-column: main-2 / main-3;
+    }
+  }
+}
