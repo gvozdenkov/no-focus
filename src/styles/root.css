@@ -26,6 +26,7 @@
   --clr-title-bg: var(--clr-accent-400);
   --clr-hero-headline: var(--clr-accent-b-400);
   --clr-hero-headline-shadow: var(--clr-accent-400);
+  --clr-accent-bg: var(--clr-accent-400);
 
   color-scheme: light dark;
   color: var(--clr-paragraph);
@@ -51,5 +52,6 @@ body {
     --clr-title-bg: var(--clr-accent-200);
     --clr-hero-headline: var(--clr-accent-b-100);
     --clr-hero-headline-shadow: var(--clr-accent-200);
+    --clr-accent-bg: var(--clr-accent-200);
   }
 }

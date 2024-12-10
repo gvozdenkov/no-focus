@@ -6,6 +6,8 @@
     url('/images/hero/hero-bg-dark-m.webp') type('image/webp'),
     url('/images/hero/hero-bg-dark-m.jpeg') type('image/jpeg')
   );
+
+  min-height: 400px;
 }
 
 @media (width > 600px) {
