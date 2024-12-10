@@ -1,10 +1,20 @@
 .text-section {
+  --gap: 20px;
+
   display: grid;
-  row-gap: 20px;
+  row-gap: var(--gap);
 
   .text-section__title {
     grid-column: main;
   }
+}
+
+.text-section:not(:last-of-type) {
+  margin-block-end: 50px;
+}
+
+.text-section:first-of-type {
+  margin-block-start: 40px;
 }
 
 @media (width >= 768px) {
@@ -15,6 +25,12 @@
 
     .article {
       grid-column: main-2 / main-3;
+    }
+  }
+
+  .text-section_type_alternative {
+    .article {
+      grid-column: main;
     }
   }
 }
