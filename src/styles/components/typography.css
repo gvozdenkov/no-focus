@@ -11,6 +11,13 @@
   font-weight: 700;
   line-height: 1.3;
   color: var(--clr-headline);
+  height: fit-content;
+}
+
+.headline_style_with-bg {
+  color: var(--clr-title);
+  background-color: var(--clr-title-bg);
+  height: fit-content;
 }
 
 .title {

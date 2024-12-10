@@ -1,11 +1,14 @@
 .section-img-grid {
+  display: grid;
+  grid-template-columns: subgrid;
+  grid-column: main;
+
   .image-grid__title {
     grid-column: main;
-    height: fit-content;
   }
 }
 
-.section-img-grid .image-grid {
+.image-grid {
   display: grid;
   row-gap: 20px;
 

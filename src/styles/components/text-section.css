@@ -15,14 +15,6 @@
   }
 }
 
-.text-section:not(:last-of-type) {
-  margin-block-end: 50px;
-}
-
-.text-section:first-of-type {
-  margin-block-start: 40px;
-}
-
 @media (width >= 768px) {
   .text-section {
     .text-section__title {

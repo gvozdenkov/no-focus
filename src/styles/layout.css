@@ -21,7 +21,6 @@
     var(--gap)
     [main-3-start]
     minmax(0, var(--max-content-col-width))
-    /* min(100% - calc(var(--gutter) * 2), var(--max-content-width)) */
     [main-end main-3-end]
     1fr
     [cutout-end]
@@ -33,6 +32,16 @@
   display: grid;
   grid-template-columns: subgrid;
   grid-column: fullbleed;
+}
+
+.content {
+  display: grid;
+  row-gap: 80px;
+  margin-block: 40px;
+}
+
+.content > * {
+  grid-template-columns: subgrid;
 }
 
 .full-width {
