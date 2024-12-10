@@ -6,6 +6,18 @@
   color: var(--clr-hero-headline);
 }
 
+@media (width >= 768px) {
+  .hero-headline {
+    font-size: 120px;
+  }
+}
+
+@media (width >= 1024px) {
+  .hero-headline {
+    font-size: 157px;
+  }
+}
+
 .headline {
   font-size: 18px;
   font-weight: 700;
