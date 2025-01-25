@@ -1,10 +1,10 @@
 .header {
   background: no-repeat bottom / cover;
-  background-image: url('/images/hero/hero-bg-dark-l.webp');
+  background-image: url('/assets/images/hero/hero-bg-dark-l.webp');
   background-image: image-set(
-    url('/images/hero/hero-bg-dark-m.avif') type('image/avif'),
-    url('/images/hero/hero-bg-dark-m.webp') type('image/webp'),
-    url('/images/hero/hero-bg-dark-m.jpeg') type('image/jpeg')
+    url('/assets/images/hero/hero-bg-dark-m.avif') type('image/avif'),
+    url('/assets/images/hero/hero-bg-dark-m.webp') type('image/webp'),
+    url('/assets/images/hero/hero-bg-dark-m.jpeg') type('image/jpeg')
   );
 
   min-height: 400px;
@@ -13,9 +13,9 @@
 @media (width > 600px) {
   .header {
     background-image: image-set(
-      url('/images/hero/hero-bg-dark-l.avif') type('image/avif'),
-      url('/images/hero/hero-bg-dark-l.webp') type('image/webp'),
-      url('/images/hero/hero-bg-dark-l.jpeg') type('image/jpeg')
+      url('/assets/images/hero/hero-bg-dark-l.avif') type('image/avif'),
+      url('/assets/images/hero/hero-bg-dark-l.webp') type('image/webp'),
+      url('/assets/images/hero/hero-bg-dark-l.jpeg') type('image/jpeg')
     );
   }
 }
