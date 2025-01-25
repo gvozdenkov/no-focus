@@ -1,0 +1,13 @@
+.advice {
+  > div:first-of-type {
+    --flow-spacer: 20px;
+
+    grid-column: main;
+  }
+
+  @media (width >= 768px) {
+    > div:first-of-type {
+      grid-column: 5 / span 8;
+    }
+  }
+}
