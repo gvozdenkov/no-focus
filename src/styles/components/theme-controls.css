@@ -23,7 +23,11 @@
     cursor: pointer;
 
     &:has(input[aria-checked='true']) {
-      outline: 1px solid var(--clr-accent-400);
+      outline: 1px solid var(--clr-theme-outline);
+
+      &:hover {
+        outline-color: color-mix(in srgb, var(--clr-theme-outline) 40%, transparent);
+      }
     }
   }
 }
