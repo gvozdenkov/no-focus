@@ -1,7 +1,7 @@
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  min-height: 41.75rem;
+  min-height: var(--header-footer-min-height);
   padding-block-start: var(--gutter);
 
   background: no-repeat bottom / cover;
@@ -29,8 +29,6 @@
   }
 
   @media (width > 568px) {
-    min-height: 100vh;
-
     > p {
       place-self: center end;
       grid-column: 8 / span 6;
@@ -38,8 +36,6 @@
   }
 
   @media (width > 768px) {
-    min-height: 48rem;
-
     > .theme-controls {
       place-self: start center;
     }

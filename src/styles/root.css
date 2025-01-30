@@ -36,6 +36,7 @@
   text-rendering: optimizeLegibility;
 
   --gutter: 0.625rem;
+  --header-footer-min-height: 41.75rem;
 }
 
 body {
