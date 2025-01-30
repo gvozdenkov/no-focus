@@ -34,6 +34,8 @@
   background-color: var(--clr-bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
+
+  --gutter: 0.625rem;
 }
 
 body {
@@ -42,6 +44,12 @@ body {
   font-size: 18px;
   line-height: 1.3;
   font-weight: 400;
+}
+
+@media (width > 568px) {
+  :root {
+    --gutter: 1.25rem;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -55,4 +63,27 @@ body {
     --clr-hero-headline-shadow: var(--clr-accent-200);
     --clr-accent-bg: var(--clr-accent-200);
   }
+}
+
+[data-theme='light'] {
+  --clr-bg: var(--clr-accent-50);
+  --clr-paragraph: var(--clr-neutral-900);
+  --clr-headline: var(--clr-neutral-900);
+  --clr-title: var(--clr-neutral-900);
+  --clr-title-bg: var(--clr-accent-200);
+  --clr-hero-headline: var(--clr-accent-b-100);
+  --clr-hero-headline-shadow: var(--clr-accent-200);
+  --clr-accent-bg: var(--clr-accent-200);
+}
+
+[data-theme='dark'] {
+  --clr-bg: var(--clr-brand-blue-900);
+  --clr-paragraph: var(--clr-accent-100);
+  --clr-headline: var(--clr-accent-400);
+  --clr-title: var(--clr-accent-400);
+  --clr-title-accent: var(--clr-brand-blue-900);
+  --clr-title-accent-bg: var(--clr-accent-400);
+  --clr-hero-headline: var(--clr-accent-b-400);
+  --clr-hero-headline-shadow: var(--clr-accent-400);
+  --clr-accent-bg: var(--clr-accent-400);
 }

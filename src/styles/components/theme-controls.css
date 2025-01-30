@@ -1,0 +1,29 @@
+.theme-controls {
+  display: flex;
+  flex-flow: column;
+  gap: 0.625rem;
+
+  font-size: 1.125rem;
+  line-height: 1;
+
+  @media (width > 768px) {
+    flex-flow: row;
+  }
+
+  input[type='radio'] {
+    appearance: none;
+    background-color: #fff;
+    margin: 0;
+  }
+
+  label {
+    display: flex;
+    color: currentColor;
+    padding: 0.1em 0.75em;
+    cursor: pointer;
+
+    &:has(input[aria-checked='true']) {
+      outline: 1px solid var(--clr-accent-400);
+    }
+  }
+}

@@ -15,9 +15,29 @@
   </head>
   <body class="body">
     <header class="header">
-      <div class="main-width">
-        <h1 class="hero-headline header__title">no focus</h1>
+      <div class="theme-controls" role="radiogroup" aria-describedby="theme-controls-desc">
+        <p id="theme-controls-desc" hidden>Выберите цветовую тему</p>
+
+        <label for="light"
+          >день
+          <input type="radio" name="theme" id="light" value="light" aria-checked="false" />
+        </label>
+
+        <label for="auto"
+          >авто
+          <input type="radio" name="theme" id="auto" value="auto" aria-checked="false" />
+        </label>
+
+        <label for="dark"
+          >неон
+          <input type="radio" name="theme" id="dark" value="dark" aria-checked="true" />
+        </label>
       </div>
+      <h1 class="hero-headline">no focus</h1>
+      <p class="title title_accent bold">
+        Что делать, когда не можешь делать ничего Или почему нам так сложно сконцентрироваться,
+        особенно когда очень надо
+      </p>
     </header>
 
     <main class="content">

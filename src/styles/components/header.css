@@ -1,21 +1,58 @@
 .header {
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  min-height: 41.75rem;
+  padding-block-start: var(--gutter);
+
   background: no-repeat bottom / cover;
-  background-image: url('/assets/images/hero/hero-bg-dark-l.webp');
+  background-image: url('/assets/images/hero/hero-bg-dark.webp');
   background-image: image-set(
-    url('/assets/images/hero/hero-bg-dark-m.avif') type('image/avif'),
-    url('/assets/images/hero/hero-bg-dark-m.webp') type('image/webp'),
-    url('/assets/images/hero/hero-bg-dark-m.jpeg') type('image/jpeg')
+    url('/assets/images/hero/hero-bg-dark.avif') type('image/avif'),
+    url('/assets/images/hero/hero-bg-dark.webp') type('image/webp'),
+    url('/assets/images/hero/hero-bg-dark.jpeg') type('image/jpeg')
   );
 
-  min-height: 400px;
+  > .theme-controls {
+    place-self: center end;
+  }
+
+  > h1 {
+    place-self: center start;
+  }
+
+  > p {
+    place-self: center;
+  }
+
+  > * {
+    grid-column: main;
+  }
+
+  @media (width > 568px) {
+    min-height: 100vh;
+
+    > p {
+      place-self: center end;
+      grid-column: 8 / span 6;
+    }
+  }
+
+  @media (width > 768px) {
+    min-height: 48rem;
+
+    > .theme-controls {
+      place-self: start center;
+    }
+  }
 }
 
-@media (width > 600px) {
+html[data-theme='light'] {
   .header {
+    background-image: url('/assets/images/hero/hero-bg-light.webp');
     background-image: image-set(
-      url('/assets/images/hero/hero-bg-dark-l.avif') type('image/avif'),
-      url('/assets/images/hero/hero-bg-dark-l.webp') type('image/webp'),
-      url('/assets/images/hero/hero-bg-dark-l.jpeg') type('image/jpeg')
+      url('/assets/images/hero/hero-bg-light.avif') type('image/avif'),
+      url('/assets/images/hero/hero-bg-light.webp') type('image/webp'),
+      url('/assets/images/hero/hero-bg-light.jpeg') type('image/jpeg')
     );
   }
 }

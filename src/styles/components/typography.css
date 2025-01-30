@@ -1,21 +1,9 @@
 .hero-headline {
   font-weight: 700;
-  font-size: 116px;
+  font-size: clamp(7.25rem, 5.7691rem + 6.3186vw, 9.813rem);
   line-height: 0.825;
   text-shadow: 4px 4px 0 var(--clr-hero-headline-shadow);
   color: var(--clr-hero-headline);
-}
-
-@media (width >= 768px) {
-  .hero-headline {
-    font-size: 120px;
-  }
-}
-
-@media (width >= 1024px) {
-  .hero-headline {
-    font-size: 157px;
-  }
 }
 
 .title {
