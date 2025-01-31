@@ -2,7 +2,6 @@
   display: grid;
   place-items: center;
   grid-column: main;
-
   min-height: var(--header-footer-min-height);
 
   > p {

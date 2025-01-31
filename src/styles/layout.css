@@ -1,7 +1,6 @@
 .body {
   --column-count: 12;
   --content-max-width: 984px;
-
   --grid-col-max-width: calc(var(--content-max-width) / var(--column-count));
 
   display: grid;
@@ -23,7 +22,6 @@
 
 .content {
   margin-block: 40px;
-
   display: grid;
   row-gap: 50px;
 }

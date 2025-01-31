@@ -2,7 +2,6 @@
   display: flex;
   flex-flow: column;
   gap: 0.625rem;
-
   font-size: 1.125rem;
   line-height: 1;
 
@@ -18,7 +17,7 @@
 
   label {
     display: flex;
-    color: currentColor;
+    color: currentcolor;
     padding: 0.1em 0.75em;
     cursor: pointer;
 

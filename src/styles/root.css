@@ -1,14 +1,13 @@
 :root {
   --_clr-neutral-900: #353430;
   --_clr-blue-900: #000028;
-  --_clr-red-400: #ff0070;
-  --_clr-red-200: #ff8fcd;
+  --_clr-red-400: #fd5aa1;
+  --_clr-red-300: #ff8fcd;
   --_clr-red-200: #ffc2e5;
   --_clr-red-100: #f1b1ce;
   --_clr-red-50: #fff1f7;
   --_clr-purple-400: #db00ff;
   --_clr-purple-100: #ffc2e6;
-
   --clr-neutral-900: #353430;
   --clr-brand-blue-900: #000028;
   --clr-accent-400: #ff0070;
@@ -18,7 +17,6 @@
   --clr-accent-50: #fff1f7;
   --clr-accent-b-400: #db00ff;
   --clr-accent-b-100: #ffc2e6;
-
   --clr-bg: var(--clr-brand-blue-900);
   --clr-paragraph: var(--clr-accent-100);
   --clr-title: var(--clr-accent-400);
@@ -32,12 +30,11 @@
   color: var(--clr-paragraph);
   background-color: var(--clr-bg);
   font-synthesis: none;
-  text-rendering: optimizeLegibility;
+  text-rendering: optimizelegibility;
 
   --gutter: 0.625rem;
   --header-footer-min-height: 41.75rem;
-
-  --ff-primary: IBM Plex Mono, monospace;
+  --ff-primary: ibm plex mono, monospace;
 }
 
 body {

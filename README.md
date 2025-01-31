@@ -1,7 +1,7 @@
 # No Focus landing
 
-What to Do When You Can't Do Anything
-Or Why It's So Hard for Us to Concentrate, Especially When We Really Need to
+What to Do When You Can't Do Anything Or Why It's So Hard for Us to Concentrate, Especially When We
+Really Need to
 
 [Demo](https://gvozdenkov.github.io/no-focus)
 

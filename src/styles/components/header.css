@@ -3,7 +3,6 @@
   grid-template-rows: 1fr min-content 1fr;
   min-height: var(--header-footer-min-height);
   padding-block-start: var(--gutter);
-
   background: no-repeat bottom / cover;
   background-image: url('/assets/images/hero/hero-bg-dark.webp');
   background-image: image-set(
