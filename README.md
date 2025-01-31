@@ -17,7 +17,7 @@ Install deps & prepare custom `git-hooks` for `lint-staged`.
 [No need `husky` :)](https://habr.com/ru/articles/807763/)
 
 ```sh
-  npm run install
+  npm run installAll
 
   # run local dev
   npm run dev

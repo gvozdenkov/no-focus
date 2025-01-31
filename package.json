@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "prepare": "git config core.hooksPath .git-hooks || echo 'Not in a git repo'",
-    "install": "npm run prepare & npm ci",
+    "installAll": "npm run prepare & npm ci",
     "dev": "vite",
     "stylelint": "stylelint 'src/**/*.css' --fix",
     "format": "prettier --write .",
