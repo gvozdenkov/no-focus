@@ -12,11 +12,17 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "browserslist": ">1% and last 2 versions, not dead",
+  "browserslist": [
+    ">1% and last 2 versions",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
   "engines": {
     "node": ">=20.18.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "glob": "^11.0.1",
     "lint-staged": "^15.4.3",
     "postcss-preset-env": "^10.1.3",
