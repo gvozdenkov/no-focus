@@ -5,7 +5,7 @@
 
   min-height: var(--header-footer-min-height);
 
-  .footer_hero-headline {
+  > p {
     grid-column: main;
   }
 }
