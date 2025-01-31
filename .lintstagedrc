@@ -1,0 +1,5 @@
+{
+  "*.(js|jsx|ts|tsx)": ["npm run format"],
+  "*.css": ["npm run stylelint"],
+  "*.(md|ya?ml|json)": "npm run format"
+}
