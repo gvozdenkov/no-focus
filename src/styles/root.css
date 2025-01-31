@@ -28,7 +28,7 @@
   --clr-hero-headline-shadow: var(--clr-accent-400);
   --clr-theme-outline: var(--clr-accent-400);
 
-  color-scheme: light dark;
+  color-scheme: dark light;
   color: var(--clr-paragraph);
   background-color: var(--clr-bg);
   font-synthesis: none;
